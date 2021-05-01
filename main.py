@@ -60,7 +60,7 @@ def notipy(rec_address,email_contents):
 product_url = "https://www.amazon.co.uk/SanDisk-Ultra-Flash-Drive-Read/dp/B083ZS4HYD/ref=psdc_430554031_t1_B07NS1Y9K3?th=1"
 
 html = get_page_html_contents(product_url)
-sizes = html.findAll('a')
+sizes = html.findAll('ul')
 for size in sizes:
     #if str(size)[:6]=='<li id':
     print(size)
