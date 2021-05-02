@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver import Firefox
+from selenium.webdriver import Firefoxpoke
+
 
 import bs4
 
@@ -8,7 +9,6 @@ ff_opts = Options()
 ff_opts.add_argument("--headless")
 
 driver = webdriver.Firefox(options=ff_opts, executable_path="./geckodriver")
-
 
 product_url = "https://www.amazon.co.uk/SanDisk-Ultra-Flash-Drive-Read/dp/B083ZS4HYD/ref=psdc_430554031_t1_B07NS1Y9K3?th=1"
 
