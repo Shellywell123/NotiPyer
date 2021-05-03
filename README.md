@@ -1,11 +1,10 @@
 # NotiPyer
 Python 3 email bot for notifications 
-    - current uses are for checking avaliable sizes of a product on amazon
-    - shout out to [dustpancake](https://github.com/dustpancake) for helping with `geckodriver` setup
-    - email bot feature in development
+  - current uses are for checking avaliable sizes of a product on amazon
+  - email bot feature in development
 
 ## Setup
-install required python packages
+Install required Python packages
 ```py
 pip3 install -r requirement.txt
 ```
