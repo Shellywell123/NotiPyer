@@ -8,9 +8,13 @@ def get_sizes(product_url):
     import bs4
     import json
 
+    # added by ben for wsl
+    from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+    cap = DesiredCapabilities().FIREFOX
+    cap["marionette"] = True
+
     ff_opts = Options()
     ff_opts.add_argument("--headless")
-
     driver = webdriver.Firefox(options=ff_opts, executable_path="./geckodriver")
 
     # get page
