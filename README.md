@@ -8,7 +8,7 @@ run:
 python3 setup.py
 ```
 
-I reccommend to set up a second Gmail account to send the alerts from, as you may have to 'allow less secure app access' within google account settings.  
+I recommend to set up a second Gmail account to send the alerts from, as you may have to 'allow less secure app access' within google account settings.  
 
 edit `example-config.py` and rename it to `config.py` so the scripts can read it.
 
