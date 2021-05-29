@@ -3,15 +3,11 @@ Python 3 Gmail notification Bot
   - current uses are for email alerts apon avaliablity of amazon product sizes
   
 ## Setup
-Install required Python packages
-```py
-pip3 install -r requirement.txt
+run:
 ```
-get `geckodriver` for your machine
-```bash
-chmod +x get_gecko.sh
-./get_gecko.sh
+python3 setup.py
 ```
+
 I reccommend to set up a second Gmail account to send the alerts from, as you may have to 'allow less secure app access' within google account settings.  
 
 edit `example-config.py` and rename it to `config.py` so the scripts can read it.
