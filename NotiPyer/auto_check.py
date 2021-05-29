@@ -16,4 +16,13 @@ def repeat(product_url,check_every_N_mins):
   for case in cases:
     if case in sizes:
         print('instock!')
+        
+        from NotiPyer import email
+
+        email_contents= {
+        'subject' : "NotiPyer Amazon Alert",
+        'body'    : ' the sandisk 1tb usb is now avaliable',
+        }
+
         # then email 
+        email.send_email(email_contents)

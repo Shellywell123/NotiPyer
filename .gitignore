@@ -130,3 +130,6 @@ dmypy.json
 
 #gecko driver as is machine dependent
 gecko*
+
+#config files
+config.py
